@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>instagran</title>
+</head>
+<body>
+    <div class="imagens">
+        <img src="img/celular.png" class="img-celular">
+        <img src="img/celuca1.png" class="img-insta">
+        <img src="img/celucar2.png" class="img-insta img-2">
+    </div>
+
+    <div class="container">
+        <img src="img/insta-logo.png">
+
+        <input placeholder="Telefone, Nome de Usuário ou E-mail">
+        <input placeholder="Senha" type="password">
+
+        <button>Entrar</button>
+
+        <a class="facebook">Entrar com Facebook</a>
+
+        <a class="esqueceu">Esqueceu a Senha</a>
+    </div>
+
+</body>
+<script>
+    let imagem = document.querySelector(".img-2")
+
+    setInterval(function () {
+        if (imagem.style.opacity == 1) {
+            imagem.style.opacity = 0
+        } else {
+            imagem.style.opacity = 1
+        }
+    }, 3000);
+
+</script>
+
+</script>
+
+</html>
